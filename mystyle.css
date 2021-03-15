@@ -1,0 +1,21 @@
+        p {
+            margin:20px 0;
+            position:relative;
+            display:inline-block;
+        }
+
+        input {
+            padding:10px;
+        }
+
+		input:invalid {
+        border-color: rgb(197, 3, 3);
+		}
+		
+		input:valid {
+        border-color: rgb(36, 175, 36);
+		}
+		
+		.submit_button { 
+		border: 1px solid #ccc; 
+		}
