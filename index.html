@@ -153,10 +153,34 @@
 <dl>
 	<form action="/action_page.php">
 		<dt>
-			<label for="calender_date">Kalendarz tylko od poniedziałku do piątku w tygodniu lab:</label>
+			<label for="working_date">Kalendarz tylko od poniedziałku do piątku w tygodniu lab:</label>
 		</dt>
 		<dd>
 			<input required type="date" id="working_date" name="working_date" min="2021-03-15" max="2021-03-19">
+			<input class="submit_button" type="submit">
+		</dd>
+	</form>
+</dl>
+
+<dl>
+	<form action="/action_page.php">
+		<dt>
+			<label for="time_picker-12">Godzina - format 12h</label>
+		</dt>
+		<dd>
+			<input required type="time" id="time_picker-12" name="time_picker-12" min="00:00" max="11:59">
+			<input class="submit_button" type="submit">
+		</dd>
+	</form>
+</dl>
+
+<dl>
+	<form action="/action_page.php">
+		<dt>
+			<label for="time_picker-24">Godzina - format 24h</label>
+		</dt>
+		<dd>
+			<input required type="time" id="time_picker-24" name="time_picker-24">
 			<input class="submit_button" type="submit">
 		</dd>
 	</form>
